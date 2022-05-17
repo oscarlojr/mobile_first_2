@@ -7,16 +7,30 @@
   font-size: 62.5%;
 }
 
-.img-wrapper {
-  position: relative;
+main {
+  width: 32rem;
+
 }
+
+.img-wrapper {
+    position: relative;
+  width: 11.2rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  background: #FEEAFA;
+  
+ }
 
 .img-wrapper h2 {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+  top: 1.6rem;
+  right: 1.6rem;
   display: flex;   
   font-weight: 800;
   flex-direction: column;
+ 
+}
+.img-wrapper img {
+  z-index: -1;
 }
 
